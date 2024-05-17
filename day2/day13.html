@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <form>
+        <tr>
+            First Name:<br>
+            <input type="text" id="first" ,name="first"><br>
+            Last Name<br>
+            <input type="text" id="Last" name="Last">
+            <label for="password"> Password</label>
+            <input type="password" >
+        </tr>
+        <br>
+        <tr>
+            Choose favorite language<br>
+            <input type="radio" id="java"  name="l" value="java"> 
+            <label for="java">Java</label><br>
+            <input type="radio" id="c++"  name="l" value="C++"> 
+            <label for="c++">CPP</label><br> 
+            <input type="radio" id="python"  name="l"value="python"> 
+            <label for="python">Python</label><br>  
+          
+        </tr>
+        <tr>
+        choose which language you study <br>
+        <input type="checkbox" id="1" name="java">
+        <label for="1">Java</label>
+        <input type="checkbox" id="2" name="cpp">
+        <label for="2"> CPP</label>
+        <input type="checkbox" id="1" name="java">
+        <label for="1">Java</label>
+        <input type="checkbox" id="2" name="cpp">
+        <label for="2"> CPP</label>
+        <tr>
+        
+        <br>
+       <!--<TR>
+            <label for="email">Enter the email</label>
+            <input type="email" id="email" name="email" value="email">
+        </TR>--> 
+        <br>
+        <tr>
+            <label for="birthday"> Date of Birthday :</label><br>
+            <input type="date" id="Birthday" name="Birthday" min="1-1-1990" max="1-1-2024">
+        </tr>
+        <br>
+        <tr>
+            <input type="image" src="./flowers.png" alt="Submit" width="100" height="100">
+            <br>
+            <label for="myfile"> add new file</label>
+           <input type="file"  id="myfile" name="myfile">
+           
+
+        </tr>
+        <tr>
+            <label for="quantity"> Quantity </label>
+            <input type="number" id="number" name="number" value="0" min="0" max="100" step="10">
+        </tr>
+        <br>
+        <tr>
+            <label for="vol"> Volume using range</label>
+            <input type="range" id="vol" name="vol" min="0" max="50" step="2">
+        </tr>
+        <br>
+        <tr>
+            <label for="gs"> Google Search</label>
+            <input type="search" id="gs" name="gs">
+        </tr>
+        <br>
+        <tr>
+            <label for="phone"> Enter the Phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="01234-56789"
+            maxlength="10" 
+            pattern="[0-9]{10}" required >
+            <small>format: 11111-11111</small>
+        </tr>
+        
+
+
+
+
+<BR>
+    
+        <tr>
+            <input type="submit" value="submit">
+        </tr>
+        <tr>
+            <input type="reset" value="reset">
+        </tr><br>
+        <br>
+        <tr>
+            <input type="button" onclick="alert('hello akshay')" value="CLICK ME!">
+        </tr>
+
+        
+
+    </form>
+</body>
+</html>
